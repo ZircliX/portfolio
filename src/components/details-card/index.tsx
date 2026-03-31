@@ -171,6 +171,13 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
   return (
     <div className="card shadow-lg card-sm bg-base-100">
       <div className="card-body">
+        <h5 className="card-title">
+            {loading ? (
+              skeleton({ widthCls: 'w-32', heightCls: 'h-8' })
+            ) : (
+              <span className="text-base-content opacity-70">Contacts</span>
+            )}
+          </h5>
         <div className="text-base-content">
           {loading || !profile ? (
             renderSkeleton()
@@ -229,7 +236,8 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                 <ListItem
                   icon={<FaLinkedin />}
                   title="LinkedIn:"
-                  value={social.linkedin}
+                  //value={social.linkedin}
+                  value='GUYON Loïs'
                   link={`https://www.linkedin.com/in/${social.linkedin}`}
                 />
               )}
