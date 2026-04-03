@@ -35,18 +35,22 @@ const CONFIG = {
         {
           title: 'ExoWorld',
           description:
-            'Un jeu de survie coopératif à la première personne, mêlant extraction de ressources, exploration et combat sur une planète hostile.',
+            "Jeu de tir et d'extraction multijoueur",
           imageUrl:
-            '',
+            '/portfolio/images/ExoWorld.png',
           link: 'https://github.com/ZircliX/OBS-ExoWorld',
+          role: 'Lead Développeur',
+          action: "Conçu une architecture multijoueur modulaire facilitant l'intégration de modes, personnages, capacités, gadgets, ennemis et armes."
         },
         {
           title: 'Dead Sync',
           description:
-            'Fast-paced, action-packed, first-person roguelike that combines fluid parkour with intense gunfights, all set in a vibrant cybperunk world.',
+            'Jeu de tir et de parkour',
           imageUrl:
             'https://img.itch.zone/aW1nLzIxNDg0Nzk0LnBuZw==/315x250%23c/iBUmVn.png',
           link: 'https://hugorf.itch.io/deadsync',
+          role: 'Développeur',
+          action: "Développé la génération de commandes, l'IA clients, les timers et les interactions cuisine."
         },
       ],
     },

@@ -91,7 +91,7 @@ const GithubProjectCard = ({
           window?.open(item.html_url, '_blank');
         }}
       >
-        <div className="flex justify-between flex-col p-8 h-full w-full">
+        <div className="flex justify-between flex-col p-4 w-full">
           <div>
             <div className="flex items-center truncate">
               <div className="card-title text-lg tracking-wide flex text-base-content opacity-60">
@@ -157,7 +157,7 @@ const GithubProjectCard = ({
                   <div className="text-base-content/60 text-xs sm:text-sm mt-1 truncate">
                     {loading
                       ? skeleton({ widthCls: 'w-32', heightCls: 'h-4' })
-                      : `Mise en avant de ${githubProjects.length} dépôts GitHub`}
+                      : `Mise en avant de ${githubProjects.length} dépots`}
                   </div>
                 </div>
               </div>
